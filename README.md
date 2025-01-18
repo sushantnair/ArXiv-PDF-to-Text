@@ -1,5 +1,5 @@
-# ArXiv-PDF-to-Text
-#### This code can effectively convert PDF Research Papers to clean Text files, avoiding images and tables.
+# arXiv Extractor
+#### This code (for now) can effectively convert PDF Research Papers to clean Text files, avoiding images and tables.
 # Requirements
 #### It requires Playwright. 
 ```pip install playwright```
@@ -9,7 +9,8 @@
 #### Currently, it works only for Mozilla Firefox Browsers.
 This is because of the way Firefox renders the PDFs. It does in a way quite different than other browsers. This made it advantageous and easier. 
 # Features to Add
-#### REMOVING PERCENTAGES, UNRECOGNIZED CHARACTERS, URLS AND KEYWORDS LIKE "CODE:", "FIGURE:", "GITHUB:" AND "WEBPAGE:"
+1. Conversion from PDF to other formats as well
+2. More field-specific cleaning (not just CS papers)
 # FAQ
 #### 1. Why I did not use the ArXiv API?
 <em>"This url calls the api, which returns the results in the Atom 1.0 format."</em>
